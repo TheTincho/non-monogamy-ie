@@ -1,0 +1,4 @@
+[[!meta title="pages tagged Announcements"]]
+
+[[!inline pages="tagged(Announcements)" actions="no" archive="yes"
+feedshow=10]]
