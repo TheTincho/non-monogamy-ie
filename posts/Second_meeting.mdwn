@@ -1,0 +1,22 @@
+[[!tag Announcements]]
+[[!tag Social_meet]]
+# New social meet
+
+After last weeks' successful kick-off meeting, I want to announce a second
+meeting, next Tuesday evening.
+
+I haven't yet found a place, but it will be decided in the next few days, stay
+tuned for updates.
+
+Also, I am testing using Evenbrite to manage the event, which does not have
+Facebook problems with privacy, and it is free to use for free events!
+
+Please, let me know if you find any issues with the event page, as it is the
+first time I am using this platform.
+
+You can already register, and get notified automatically when the location is
+announced.
+
+<a class="btn btn-primary"
+href="http://www.eventbrite.com/e/non-monogamous-ireland-social-meeting-registration-27004702793?ref=ebtnebregn"
+role="button">Register now</a>
