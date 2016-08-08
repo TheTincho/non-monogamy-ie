@@ -2,12 +2,32 @@
 [[!meta author="Martín Ferrari (tincho@tincho.org)"]]
 [[!meta authorurl="http://tincho.org/"]]
 [[!sidebar content="""
+## Tags
 [[!pagestats pages="./tags/*" among="./posts/*" class=mypagecloud]]
 """]]
 
 # Non-monogamy Ireland
 
-Content
+This is a community for people who believe that relationships come in different
+sizes and shapes, and that monogamy is not always the answer.
+
+---
+
+The group aims to provide a non-commercial safe space for the non-monogamous
+people of Ireland, irrespective of their sexual orientation, gender identity
+and expression, disability, physical appearance, body size, race, or religion.
+
+A space for discussion, creation, and organisation that exists on-line and
+off-line. Safe because a group within the community will create and enforce a
+code of conduct to protect the community members from any harassment. Posting
+is free, but abuse will be swiftly suppressed.
+
+# Facebook group
+
+While we know that Facebook does not respect our privacy adequately, it was the
+simplest way to start the community. Until we find a suitable alternative, the
+place to discuss online is in the
+[FB group page](https://www.facebook.com/groups/nonmonogamous.ie/).
 
 # News
 

@@ -1,4 +1,5 @@
 [[!tag Announcements]]
+[[!tag Website]]
 # New website
 
 If you are reading this, you will have already noticed that now our little
