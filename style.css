@@ -1,0 +1,191 @@
+/* There isn't much space between the Bootstrap navbar and the page content */
+#header {
+	margin-bottom: 1em;
+}
+
+/* Ensure the footer is pushed down to the bottom of the screen,
+ * if the main content doesn't fill it. */
+body, html {
+	height: 100%;
+}
+
+#notfooter {
+	min-height: 100%;
+	padding-bottom: 2em;
+}
+
+#footer {
+	position: relative;
+	margin-top: -2em;
+	height: 2em;
+	color: grey;
+	border-top: 1px solid lightgrey;
+}
+
+#pagedate {
+	float: right;
+}
+
+/* Bootstrap's navbar packs everything without margins or padding.
+ * Ensure the search form has some space. */
+
+#searchform {
+	margin-left: 1em;
+}
+
+.parentlinks {
+	margin-right: 1em;
+}
+
+/* Alignment of header and footer items of the default inline pages.
+ * Using flexbox layout here, since it can wrap when things get too crowded.
+ * It's a bit better than floats. */
+.inlineheader {
+	display: flex;
+}
+
+.inlineheader header {
+	flex: 1 1 auto;
+}
+
+.inlineheader {
+	flex: 0 1 auto;
+}
+
+.inlinefooter {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.inlinefooter .pageinfo {
+	flex: 1 1 auto;
+}
+
+.inlinefooter .tags {
+	flex: 0 1 auto;
+}
+
+.inline-actions {
+	display: inline;
+}
+
+.inline-actions ul, .inline-actions li {
+	list-style-type: none;
+	display: inline;
+}
+
+/* Popups */
+/* popup template and backlinks hiding */
+.popup .balloon,
+.popup .paren,
+.popup .expand {
+	position: absolute;
+	z-index: 1000;
+	display: none;
+	color: #373a3c;
+	text-align: left;
+	list-style: none;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-radius: .25rem;
+}
+
+.balloon ul {
+	list-style: none;
+	margin: 0;
+	padding: 0.5em;
+}
+
+.popup:hover .balloon,
+.popup:focus .balloon {
+	display: inline;
+}
+
+/* Table style, similar to Bootstrap .table-border and with .table-inverse headers */
+table {
+	margin-bottom: 1em;
+	background-color: white;
+	display: block;
+	overflow: auto;
+}
+
+table td, table th {
+	border: 1px solid #eceeef;
+	padding: 0.5em;
+}
+
+table th {
+	color: #eceeef;
+	background-color: #373a3c;
+	border-color: #55595c;
+}
+
+table tr:hover {
+	background-color: #f5f5f5;
+}
+
+/* Rounded corners on tables */
+table {
+	border-collapse: separate;
+}
+
+table tr:first-child td:first-child, table tr:first-child th:first-child {
+	border-top-left-radius: 0.25rem;
+}
+table tr:first-child td:last-child, table tr:first-child th:last-child {
+	border-top-right-radius: 0.25rem;
+}
+table tr:last-child td:first-child {
+	border-bottom-left-radius: 0.25rem;
+}
+table tr:last-child td:last-child {
+	border-bottom-right-radius: 0.25rem;
+}
+
+/* Improve look of calendars */
+.month-calendar td,
+.month-calendar th,
+.year-calendar td,
+.year-calendar th {
+	min-width: 2.5em;
+	text-align: center;
+}
+
+.month-calendar-day-link, .year-calendar-month-link {
+  background-color: #d9edf7;
+}
+
+/* Give RSS and Atom buttons an orange color */
+.feedbutton {
+	background: #ff8000;
+	border-color: #e07000;
+	color: white;
+	font-weight: bold;
+}
+
+.feedbutton:hover {
+	background: #ffc080;
+	border-color: #e07000;
+}
+
+/* Carousel alignment */
+.carousel-page {
+	margin: 1em;
+}
+
+.carousel-image {
+	margin: auto;
+}
+
+/* Bootstrap 4.0.0-alpha.2 forgot to define a blockquote style? */
+blockquote {
+	border-left: 4px solid rgba(0,0,0,.1);
+	padding-left: 0.5em;
+}
+
+/* Fix image width in cards. */
+.card-img-top, .card-img-bottom {
+	width: 100%;
+	height: auto;
+}

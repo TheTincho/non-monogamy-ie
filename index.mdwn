@@ -1,0 +1,22 @@
+[[!meta title="Non-monogamy Ireland"]]
+[[!meta author="Martín Ferrari (tincho@tincho.org)"]]
+[[!meta authorurl="http://tincho.org/"]]
+[[!sidebar content="""
+[[!pagestats pages="./tags/*" among="./posts/*" class=mypagecloud]]
+"""]]
+
+# Non-monogamy Ireland
+
+Content
+
+# News
+
+[[!inline pages="page(./posts/*) and !*/Discussion" show="10"
+feeds=no actions=yes]]
+
+[[!calendar pages="page(./posts/*) and !*/Discussion"]]
+---
+This blog is powered by [ikiwiki](http://ikiwiki.info).
+[[!inline pages="page(./posts/*) and !*/Discussion" show="10"
+rss=yes atom=no feedonly=yes actions=yes
+description="Non-monogamy Ireland"]]
