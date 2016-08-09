@@ -1,5 +1,7 @@
 [[!tag Announcements]]
 [[!tag Website]]
+[[!meta author="Martín Ferrari (tincho@tincho.org)"]]
+[[!meta authorurl="http://tincho.org/"]]
 # New website
 
 If you are reading this, you will have already noticed that now our little

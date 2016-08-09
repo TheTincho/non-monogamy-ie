@@ -45,6 +45,18 @@
 	<link rel="next" href="<TMPL_VAR NEXTURL>" title="<TMPL_VAR NEXTTITLE>" />
 	</TMPL_IF>
 	</TMPL_LOOP>
+	<meta property="og:title" content="<TMPL_VAR TITLE>" />
+	<TMPL_IF PERMALINK>
+	<meta property="og:url" content="<TMPL_VAR PERMALINK>" />
+	</TMPL_IF>
+	<meta property="og:image" content="<TMPL_VAR BASEURL>logo.png" />
+	<meta property="og:type" content="article" />
+	<TMPL_IF AUTHOR>
+		<meta property="og:article:author" content="<TMPL_VAR AUTHOR>" />
+	</TMPL_IF>
+	<TMPL_LOOP CATEGORIES>
+		<meta property="og:article:tag" content="<TMPL_VAR CATEGORY>" />
+	</TMPL_LOOP>
 	</TMPL_UNLESS>
 </head>
 
@@ -213,7 +225,17 @@
 			</TMPL_IF>
 
 			<span id="pagedate">
-				Last edited <TMPL_VAR MTIME>.
+				Last edited <TMPL_VAR MTIME>
+				<TMPL_IF AUTHOR>
+				by
+				<span class="author">
+					<TMPL_IF AUTHORURL>
+					<a href="<TMPL_VAR AUTHORURL>"><TMPL_VAR AUTHOR></a>
+					<TMPL_ELSE>
+					<TMPL_VAR AUTHOR>
+					</TMPL_IF>
+				</span>
+				</TMPL_IF>.
 			</span>
 		</nav>
 		<TMPL_IF EXTRAFOOTER><TMPL_VAR EXTRAFOOTER></TMPL_IF>

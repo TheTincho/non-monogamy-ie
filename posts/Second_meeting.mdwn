@@ -1,5 +1,7 @@
 [[!tag Announcements]]
 [[!tag Social_meet]]
+[[!meta author="Martín Ferrari (tincho@tincho.org)"]]
+[[!meta authorurl="http://tincho.org/"]]
 # New social meet
 
 After last weeks' successful kick-off meeting, I want to announce a second

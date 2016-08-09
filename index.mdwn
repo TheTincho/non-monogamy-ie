@@ -1,7 +1,8 @@
 [[!meta title="Non-monogamy Ireland"]]
-[[!meta author="Martín Ferrari (tincho@tincho.org)"]]
-[[!meta authorurl="http://tincho.org/"]]
 [[!meta google-site-verification="FPdZHtg0dbZpZD1huPvEjdEznEabghazr2TKaxzq89c"]]
+[[!meta description="A community for people who believe that relationships come
+in different sizes and shapes, and that monogamy is not always the answer. Open
+relationships, polyamory, relationship anarchy, etc."]]
 [[!sidebar content="""
 ## Tags
 [[!pagestats pages="./tags/*" among="./posts/*" class=mypagecloud]]
@@ -11,6 +12,10 @@
 
 This is a community for people who believe that relationships come in different
 sizes and shapes, and that monogamy is not always the answer.
+
+Non-monogamy is an umbrella term that includes open relationships, polyamory,
+relationship anarchy, and other forms of relationships that don't follow the
+monogamous canon.
 
 ---
 
