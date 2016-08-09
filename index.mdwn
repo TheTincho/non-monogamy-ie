@@ -1,6 +1,7 @@
 [[!meta title="Non-monogamy Ireland"]]
 [[!meta author="Martín Ferrari (tincho@tincho.org)"]]
 [[!meta authorurl="http://tincho.org/"]]
+[[!meta google-site-verification="FPdZHtg0dbZpZD1huPvEjdEznEabghazr2TKaxzq89c"]]
 [[!sidebar content="""
 ## Tags
 [[!pagestats pages="./tags/*" among="./posts/*" class=mypagecloud]]
